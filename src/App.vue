@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <div class="menu">
       <Menu />
     </div>
@@ -29,8 +29,19 @@ body {
   font-family: 'helvetica neue', sans-serif;
 }
 
-#app {
+.app {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+.app .menu {
+  width: 24%;
+  height: 94%;
+}
+
+.app .header {
+  width: 76%;
+  height: 20%;
+}
+
 </style>

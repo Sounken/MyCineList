@@ -30,8 +30,8 @@
 
 <style>
 .menu-container {
-    width: 24%;
-    height: 94%;
+    width: 100%;
+    height: 100%;
     display: flex;
     position: sticky;
     flex-direction: column;
